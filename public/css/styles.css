@@ -54,11 +54,11 @@ textarea,
   color: #7a7880;
 }
 
-@media screen and (max-width:30em) {
+@media screen and (max-width:300px) {
   .btn {
     display: block;
     margin: 0.5em auto;
-    width:50%;
+    width:60%;
   }
   .head{
     font-size: 2.5 rem;
