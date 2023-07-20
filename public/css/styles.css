@@ -1,0 +1,62 @@
+body {
+  background: rgb(9, 1, 28);
+}
+
+.centered {
+  padding-top: 200px;
+  text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #7a7880;
+  background: #150242;
+  border: solid 1px #7a7880;
+}
+
+.homecontainer {
+  background: rgb(9, 1, 28);
+  background: linear-gradient(180deg, rgba(9, 1, 28, 1) 0%, rgba(28, 16, 61, 1) 70%);
+  margin: 20px;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  color: #fff;
+}
+
+h1 {
+  color: #fff;
+}
+
+.trans {
+  background: rgb(9, 1, 28);
+  background: linear-gradient(180deg, rgba(9, 1, 28, 1) 0%, rgba(28, 16, 61, 1) 70%);
+  border-radius: 5%;
+
+}
+
+.white {
+  color: #fff;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+textarea,
+.google {
+
+  background: transparent;
+  border: solid 1px #0000FF;
+  margin: 10px;
+}
+
+.grey {
+  color: #7a7880;
+}
+
+@media (max-width:30em) {
+  .btn {
+    display: block;
+    margin: 0.5em auto;
+  }
+}
